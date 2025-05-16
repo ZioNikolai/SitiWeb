@@ -8,14 +8,57 @@
     <title>Gamers shop: Registrazione</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./contatti.html">Contatti</a></li>
-                <li><a href="#">Registrazione</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./contatti.html">Contatti</a></li>
+        <li><a href="#">Registrazione</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Gamers shop</h1>
+      <h2>Registrati alla nostra newsletter</h2>
+    </section>
+
+    <section class="form-box">
+      <h3>Form di Registrazione</h3>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="data">Data di nascita:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label>Interessi:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="interessi" value="sport"> Sport</label>
+          <label><input type="checkbox" name="interessi" value="musica"> Musica</label>
+          <label><input type="checkbox" name="interessi" value="cucina"> Cucina</label>
+          <label><input type="checkbox" name="interessi" value="viaggi"> Viaggi</label>
+          <label><input type="checkbox" name="interessi" value="tecnologia"> Tecnologia</label>
+        </div>
+
+        <div class="newsletter">
+          <label><input type="checkbox" checked> Vuoi ricevere la nostra newsletter?</label>
+        </div>
+
+        <button type="submit">Registrati</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Autore del sito: Nicolo' Musci</p>
+    <p>Email: <a href="mailto:nico.m.2002@icloud.com">nico.m.2002@icloud.com</a></p>
+    <p>Ultimo aggiornamento: 16 Maggio 2025</p>
+  </footer>
+
 </body>
 </html>
