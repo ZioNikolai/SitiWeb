@@ -14,7 +14,8 @@ nav ul {
   list-style: none;
   text-align:left;
   padding: 0;
-  margin-left: 5rem;
+  max-width: 1300px;
+  margin: auto;
 }
 
 nav ul li {
@@ -28,18 +29,20 @@ nav ul li a {
   font-weight: bold;
 }
 
-main {
-  padding: 5em;
-}
-
 /* HOME */
 
 h1, h2 {
   color: #0056d2;
 }
 
+.container-intro, .container-personaggi, .container-titoli{
+    background-color: #d6d0d0;
+}
+
 .intro, .descrizione, .personaggi, .armi, .titoli {
-  margin-bottom: 3em;
+  padding: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .contenuto {
