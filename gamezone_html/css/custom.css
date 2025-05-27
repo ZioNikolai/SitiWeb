@@ -1,0 +1,6 @@
+.img-slider{
+    height: 50vh;
+    filter: brightness(0.4);
+    object-fit: cover;
+    object-position: center;
+}
