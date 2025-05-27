@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>GameZone - Registrazione</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Chi siamo</a>
+      <a href="register.html">Registrati</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Registrati su GameZone</h1>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Dati personali</legend>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cognome">Cognome</label>
+        <input type="text" id="cognome" name="cognome" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="conferma">Conferma password</label>
+        <input type="password" id="conferma" name="conferma" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferenze</legend>
+        <label for="console">Console preferita</label>
+        <select id="console" name="console">
+          <option value="ps5">PlayStation 5</option>
+          <option value="xbox">Xbox Series X</option>
+          <option value="switch">Nintendo Switch</option>
+        </select>
+
+        <p>Interessi:</p>
+        <label><input type="checkbox" name="interessi" value="recensioni"> Recensioni</label>
+        <label><input type="checkbox" name="interessi" value="anteprime"> Anteprime</label>
+        <label><input type="checkbox" name="interessi" value="offerte"> Offerte</label>
+
+        <label><input type="checkbox" name="newsletter"> Iscrivimi alla newsletter</label>
+      </fieldset>
+
+
+      <textarea readonly rows="10" cols="80">
+Termini e Condizioni di GameZone
+
+Benvenuto su GameZone. Utilizzando il nostro sito, accetti i seguenti termini:
+
+1. Utilizzo del Servizio
+Il sito GameZone fornisce contenuti informativi a scopo personale. È vietata qualsiasi riproduzione o distribuzione non autorizzata.
+
+2. Registrazione
+L’utente si impegna a fornire informazioni veritiere al momento della registrazione. GameZone si riserva il diritto di sospendere gli account in caso di uso improprio.
+
+3. Contenuti
+Tutti i contenuti, inclusi testi, immagini e recensioni, sono protetti da copyright. È vietato l’uso commerciale senza autorizzazione scritta.
+
+4. Responsabilità
+GameZone non è responsabile per eventuali danni derivanti dall’uso del sito o dall’affidamento sui contenuti pubblicati.
+
+5. Modifiche
+Ci riserviamo il diritto di aggiornare i termini in qualsiasi momento. L’uso continuato del sito implica l’accettazione delle modifiche.
+
+Ultimo aggiornamento: 26 maggio 2025
+</textarea>
+
+      <label>
+        <input type="checkbox" name="termini" required>
+        Accetto i termini e condizioni
+      </label>
+
+      <button type="submit">Registrati</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GameZone</p>
+  </footer>
+</body>
+</html>
